@@ -1,0 +1,9 @@
+app/data/
+includes/*.local.php
+*.log
+.DS_Store
+Thumbs.db
+build/*.zip
+
+# leftover from the old React prototype
+.vite/

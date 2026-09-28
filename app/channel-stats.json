@@ -1,0 +1,17 @@
+{
+    "generated": "2026-09-16T12:28:36+00:00",
+    "channels": 43283,
+    "names": 30187,
+    "countries": 60,
+    "genres": {
+        "GENERAL": 14923,
+        "SPORTS": 14593,
+        "MOVIES": 6362,
+        "ENTERTAINMENT": 2573,
+        "KIDS": 1393,
+        "NEWS": 1256,
+        "DOCUMENTARY": 1057,
+        "MUSIC": 859,
+        "FAITH": 267
+    }
+}

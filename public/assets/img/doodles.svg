@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute">
+  <!-- Hand-drawn style line icons (cream outlines on the red bands). Use: <svg><use href="/assets/img/doodles.svg#camera"/></svg> -->
+  <symbol id="camera" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="44" width="52" height="34" rx="4"/><circle cx="28" cy="30" r="13"/><circle cx="54" cy="30" r="13"/><circle cx="28" cy="30" r="3"/><circle cx="54" cy="30" r="3"/><path d="M66 54 L86 44 V78 L66 68 Z"/><rect x="20" y="50" width="12" height="7" rx="1"/>
+  </symbol>
+  <symbol id="reel" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="50" cy="48" r="32"/><circle cx="50" cy="48" r="5"/><circle cx="50" cy="30" r="7"/><circle cx="67.1" cy="42.4" r="7"/><circle cx="60.6" cy="62.6" r="7"/><circle cx="39.4" cy="62.6" r="7"/><circle cx="32.9" cy="42.4" r="7"/><path d="M50 80 C62 90 80 90 92 82"/>
+  </symbol>
+  <symbol id="clapper" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 40 L82 24 L84 34 L18 50 Z"/><path d="M28 37 L32 47 M42 34 L46 44 M56 30 L60 40 M70 27 L74 37"/><rect x="16" y="50" width="68" height="36" rx="3"/><path d="M16 60 H84 M28 50 L24 60 M42 50 L38 60 M56 50 L52 60 M70 50 L66 60"/><path d="M26 71 H60 M26 78 H48"/>
+  </symbol>
+  <symbol id="ticket" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 34 H82 V44 A6 6 0 0 0 82 56 V66 H18 V56 A6 6 0 0 0 18 44 Z"/><path d="M64 36 V64" stroke-dasharray="4 5"/><path d="M27 45 H54 M27 55 H46"/>
+  </symbol>
+  <symbol id="popcorn" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 44 L36 88 H64 L72 44 Z"/><path d="M42 44 L45 88 M58 44 L55 88"/><path d="M28 44 C22 40 24 30 32 31 C33 22 45 20 48 27 C52 19 64 21 64 29 C72 28 76 38 72 44"/>
+  </symbol>
+  <symbol id="glasses" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="12" y="42" width="32" height="22" rx="6"/><rect x="56" y="42" width="32" height="22" rx="6"/><path d="M44 50 Q50 45 56 50 M12 46 L4 38 M88 46 L96 38"/>
+  </symbol>
+  <symbol id="remote" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="36" y="10" width="28" height="80" rx="8"/><circle cx="50" cy="26" r="6"/><circle cx="43" cy="44" r="3"/><circle cx="57" cy="44" r="3"/><circle cx="43" cy="56" r="3"/><circle cx="57" cy="56" r="3"/><path d="M42 70 H58 M42 78 H58"/>
+  </symbol>
+  <symbol id="antenna" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="40" width="72" height="48" rx="6"/><rect x="22" y="48" width="42" height="32" rx="3"/><circle cx="76" cy="56" r="4"/><circle cx="76" cy="70" r="4"/><path d="M50 40 L30 12 M50 40 L70 12"/><circle cx="30" cy="12" r="3"/><circle cx="70" cy="12" r="3"/>
+  </symbol>
+  <symbol id="ball" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="50" cy="50" r="34"/><path d="M50 26 L64 36 L59 53 H41 L36 36 Z"/><path d="M50 26 V16 M64 36 L76 30 M59 53 L68 66 M41 53 L32 66 M36 36 L24 30"/>
+  </symbol>
+  <symbol id="shield" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 12 L82 24 V48 C82 68 68 82 50 90 C32 82 18 68 18 48 V24 Z"/><path d="M36 50 L46 60 L66 40"/>
+  </symbol>
+  <symbol id="chat" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 24 H74 V62 H44 L28 76 V62 H18 Z"/><path d="M30 38 H62 M30 48 H52"/>
+  </symbol>
+  <symbol id="star" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 14 L60 38 L86 40 L66 57 L72 84 L50 70 L28 84 L34 57 L14 40 L40 38 Z"/>
+  </symbol>
+  <symbol id="megaphone" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 42 H32 L66 22 V78 L32 58 H18 Z"/><path d="M32 58 L36 80 H48 L44 58"/><path d="M74 40 Q84 50 74 60"/>
+  </symbol>
+</svg>

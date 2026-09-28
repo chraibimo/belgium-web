@@ -1,0 +1,8 @@
+# the site runs on a Linux host: keep LF in the repo and in working copies
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+*.zip binary
+*.mp4 binary

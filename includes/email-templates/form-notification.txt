@@ -1,0 +1,8 @@
+New {{kind}} submission — PrimoTV
+
+{{body}}
+
+—
+IP: {{ip}}
+Page: {{page}}
+Time: {{time}}

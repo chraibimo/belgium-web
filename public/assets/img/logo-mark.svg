@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <symbol id="mark" viewBox="0 0 64 64">
+    <path d="M22 4l10 10 10-10" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="6" y="14" width="52" height="42" rx="8" fill="#fee2a8" stroke="#000" stroke-width="3.5"/>
+    <rect x="11" y="19" width="32" height="30" rx="5" fill="#c4252d" stroke="#000" stroke-width="3"/>
+    <ellipse cx="21" cy="33" rx="4.2" ry="6" fill="#fee2a8"/>
+    <ellipse cx="33" cy="33" rx="4.2" ry="6" fill="#fee2a8"/>
+    <ellipse cx="22" cy="34.5" rx="1.8" ry="2.6" fill="#000"/>
+    <ellipse cx="34" cy="34.5" rx="1.8" ry="2.6" fill="#000"/>
+    <path d="M20 42q7 4 14 0" fill="none" stroke="#fee2a8" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="50" cy="26" r="3.4" fill="#3a2c24" stroke="#000" stroke-width="2"/>
+    <circle cx="50" cy="37" r="3.4" fill="#3a2c24" stroke="#000" stroke-width="2"/>
+    <rect x="46" y="44" width="8" height="2.2" rx="1" fill="#000"/>
+    <rect x="16" y="56" width="8" height="5" fill="#000"/>
+    <rect x="40" y="56" width="8" height="5" fill="#000"/>
+  </symbol>
+  <use href="#mark" width="64" height="64"/>
+</svg>

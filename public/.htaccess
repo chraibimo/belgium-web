@@ -1,0 +1,45 @@
+# MICKEY TV - Apache rules for the public/ web root.
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Never serve server-side code or logs, even if the docroot is flattened.
+    RewriteRule ^(app|build|includes)(/|$) - [F,L]
+    RewriteRule \.(jsonl|log|local\.php)$ - [F,L]
+    RewriteRule (^|/)\.(?!well-known/) - [F,L]
+
+    # Existing files are served directly; everything else is a page or API route.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header always set Content-Security-Policy "frame-ancestors 'self'"
+    <FilesMatch "\.(css|js|woff2|svg|png|jpg|jpeg|webp|mp4)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/json application/javascript application/xml image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+AddType font/woff2 .woff2

@@ -1,0 +1,10 @@
+# Server-side code and data: never served directly when this folder sits inside
+# the web root (flattened Hostinger deploy). The front controller include()s
+# these files server-side, which is unaffected by this rule.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>

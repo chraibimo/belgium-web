@@ -1,0 +1,908 @@
+{
+    "_comment": "Logo river on the home page's channel-check section. Hand-edit id/name/src/q (src is a path under the tv-logo/tv-logos GitHub repo, countries/...); then run `php build/channel-logos.php` - it downloads, trims and resizes each logo into public/static/media/channels/<id>.png (+ .webp twin) and fills in w/h/tone here. `q` is what a click on the tile types into the search box (defaults to name).",
+    "source": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/",
+    "rows": [
+        [
+            {
+                "id": "tsn",
+                "name": "TSN",
+                "src": "canada/tsn-ca.png",
+                "w": 240,
+                "h": 58,
+                "tone": "light"
+            },
+            {
+                "id": "hgtv",
+                "name": "HGTV",
+                "src": "united-states/hgtv-us.png",
+                "w": 125,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "fs2",
+                "name": "FS2",
+                "src": "united-states/fox-sports-2-us.png",
+                "q": "Fox Sports 2",
+                "w": 128,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "e",
+                "name": "E!",
+                "src": "united-states/e-entertainment-us.png",
+                "q": "E!",
+                "w": 19,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "bravo",
+                "name": "Bravo",
+                "src": "united-states/bravo-us.png",
+                "w": 85,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cbc",
+                "name": "CBC",
+                "src": "canada/cbc-ca.png",
+                "w": 240,
+                "h": 62,
+                "tone": "dark"
+            },
+            {
+                "id": "paramount-plus",
+                "name": "Paramount+",
+                "src": "united-states/paramount-plus-us.png",
+                "q": "Paramount",
+                "w": 103,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "newsmax",
+                "name": "Newsmax",
+                "src": "united-states/newsmax-tv-us.png",
+                "w": 240,
+                "h": 38,
+                "tone": "light"
+            },
+            {
+                "id": "marquee",
+                "name": "Marquee Sports Network",
+                "src": "united-states/marquee-sports-network-us.png",
+                "q": "Marquee",
+                "w": 184,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "metv",
+                "name": "MeTV",
+                "src": "united-states/me-tv-us.png",
+                "w": 201,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nbc",
+                "name": "NBC",
+                "src": "united-states/nbc-us.png",
+                "w": 68,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "bbc-one",
+                "name": "BBC One",
+                "src": "united-kingdom/bbc-one-uk.png",
+                "w": 98,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "pbs",
+                "name": "PBS",
+                "src": "united-states/pbs-us.png",
+                "w": 153,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tv-land",
+                "name": "TV Land",
+                "src": "united-states/tv-land-us.png",
+                "w": 185,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "fanduel",
+                "name": "FanDuel TV",
+                "src": "united-states/fanduel-tv-us.png",
+                "q": "FanDuel",
+                "w": 130,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "fox",
+                "name": "FOX",
+                "src": "united-states/fox-us.png",
+                "w": 148,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "hbo",
+                "name": "HBO",
+                "src": "united-states/hbo-us.png",
+                "w": 155,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "disney-channel",
+                "name": "Disney Channel",
+                "src": "united-states/disney-channel-us.png",
+                "q": "Disney",
+                "w": 146,
+                "h": 64,
+                "tone": "dark"
+            }
+        ],
+        [
+            {
+                "id": "sportsnet",
+                "name": "Sportsnet",
+                "src": "canada/sportsnet-ca.png",
+                "w": 240,
+                "h": 36,
+                "tone": "dark"
+            },
+            {
+                "id": "cmt",
+                "name": "CMT",
+                "src": "united-states/cmt-us.png",
+                "w": 82,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "peacock",
+                "name": "Peacock",
+                "src": "united-states/nbc-peacock-flat-us.png",
+                "w": 108,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tv5monde",
+                "name": "TV5MONDE",
+                "src": "international/tv5-monde-int.png",
+                "q": "TV5",
+                "w": 194,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "bounce",
+                "name": "Bounce",
+                "src": "united-states/bounce-us.png",
+                "w": 240,
+                "h": 52,
+                "tone": "dark"
+            },
+            {
+                "id": "abc",
+                "name": "ABC",
+                "src": "united-states/abc-us.png",
+                "w": 64,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "disney-jr",
+                "name": "Disney Jr.",
+                "src": "united-states/disney-jr-us.png",
+                "q": "Disney Jr",
+                "w": 211,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "ctv",
+                "name": "CTV",
+                "src": "canada/ctv-ca.png",
+                "w": 201,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cgtn",
+                "name": "CGTN",
+                "src": "international/cgtn-int.png",
+                "w": 239,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "bloomberg",
+                "name": "Bloomberg",
+                "src": "united-states/bloomberg-television-us.png",
+                "w": 240,
+                "h": 57,
+                "tone": "dark"
+            },
+            {
+                "id": "history",
+                "name": "History",
+                "src": "united-states/history-channel-us.png",
+                "w": 55,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "ifc",
+                "name": "IFC",
+                "src": "united-states/ifc-us.png",
+                "w": 110,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "hln",
+                "name": "HLN",
+                "src": "united-states/hln-us.png",
+                "w": 166,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cbs",
+                "name": "CBS",
+                "src": "united-states/cbs-logo-white-us.png",
+                "w": 64,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "animal-planet",
+                "name": "Animal Planet",
+                "src": "united-states/animal-planet-us.png",
+                "w": 109,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tf1",
+                "name": "TF1",
+                "src": "france/tf1-fr.png",
+                "w": 175,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cnn",
+                "name": "CNN",
+                "src": "united-states/cnn-us.png",
+                "w": 137,
+                "h": 64,
+                "tone": "light"
+            }
+        ],
+        [
+            {
+                "id": "rds",
+                "name": "RDS",
+                "src": "canada/rds-ca.png",
+                "w": 240,
+                "h": 57,
+                "tone": "light"
+            },
+            {
+                "id": "mgm-plus",
+                "name": "MGM+",
+                "src": "united-states/mgm-plus-us.png",
+                "q": "MGM",
+                "w": 152,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nhk-world",
+                "name": "NHK World Japan",
+                "src": "international/nhk-world-japan-int.png",
+                "q": "NHK",
+                "w": 64,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "golf-channel",
+                "name": "Golf Channel",
+                "src": "united-states/nbc-golf-channel-us.png",
+                "q": "Golf",
+                "w": 213,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "great-american-family",
+                "name": "Great American Family",
+                "src": "united-states/great-american-family-us.png",
+                "w": 174,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "comedy-central",
+                "name": "Comedy Central",
+                "src": "united-states/comedy-central-us.png",
+                "w": 185,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "reelz",
+                "name": "Reelz",
+                "src": "united-states/reelz-us.png",
+                "w": 240,
+                "h": 40,
+                "tone": "dark"
+            },
+            {
+                "id": "sundance",
+                "name": "Sundance TV",
+                "src": "united-states/sundance-tv-us.png",
+                "q": "Sundance",
+                "w": 240,
+                "h": 30,
+                "tone": "dark"
+            },
+            {
+                "id": "tcm",
+                "name": "TCM",
+                "src": "united-states/tcm-us.png",
+                "w": 172,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "newsnation",
+                "name": "NewsNation",
+                "src": "united-states/news-nation-us.png",
+                "w": 113,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tva",
+                "name": "TVA",
+                "src": "canada/tva-ca.png",
+                "w": 200,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "mls",
+                "name": "MLS",
+                "src": "united-states/mls-logo-us.png",
+                "w": 61,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "ion",
+                "name": "ION",
+                "src": "united-states/ion-television-us.png",
+                "w": 86,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cooking-channel",
+                "name": "Cooking Channel",
+                "src": "united-states/cooking-channel-us.png",
+                "q": "Cooking",
+                "w": 240,
+                "h": 56,
+                "tone": "dark"
+            },
+            {
+                "id": "sky-sports",
+                "name": "Sky Sports",
+                "src": "united-kingdom/sky-sports-main-event-uk.png",
+                "w": 175,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "game-show-network",
+                "name": "Game Show Network",
+                "src": "united-states/game-show-network-us.png",
+                "q": "Game Show",
+                "w": 72,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nfl-network",
+                "name": "NFL Network",
+                "src": "united-states/nfl-network-us.png",
+                "q": "NFL",
+                "w": 163,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "zdf",
+                "name": "ZDF",
+                "src": "germany/zdf-de.png",
+                "w": 109,
+                "h": 64,
+                "tone": "dark"
+            }
+        ],
+        [
+            {
+                "id": "c-span",
+                "name": "C-SPAN",
+                "src": "united-states/c-span-1-us.png",
+                "q": "C-SPAN",
+                "w": 240,
+                "h": 49,
+                "tone": "dark"
+            },
+            {
+                "id": "antenna",
+                "name": "Antenna TV",
+                "src": "united-states/antenna-us.png",
+                "q": "Antenna",
+                "w": 189,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nick-jr",
+                "name": "Nick Jr.",
+                "src": "united-states/nick-jr-us.png",
+                "q": "Nick Jr",
+                "w": 70,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "court-tv",
+                "name": "Court TV",
+                "src": "united-states/court-tv-us.png",
+                "w": 129,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "fs1",
+                "name": "FS1",
+                "src": "united-states/fox-sports-1-us.png",
+                "q": "Fox Sports 1",
+                "w": 128,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "global",
+                "name": "Global",
+                "src": "canada/global-ca.png",
+                "w": 136,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cozi",
+                "name": "Cozi TV",
+                "src": "united-states/cozi-tv-us.png",
+                "q": "Cozi",
+                "w": 177,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "bet",
+                "name": "BET",
+                "src": "united-states/bet-us.png",
+                "w": 64,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "netflix",
+                "name": "Netflix",
+                "src": "international/netflix-int.png",
+                "w": 237,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "own",
+                "name": "OWN",
+                "src": "united-states/oprah-winfrey-network-us.png",
+                "w": 150,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tlc",
+                "name": "TLC",
+                "src": "united-states/tlc-us.png",
+                "w": 134,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "vh1",
+                "name": "VH1",
+                "src": "united-states/vh1-us.png",
+                "w": 123,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "accn",
+                "name": "ACC Network",
+                "src": "united-states/espn-accn-us.png",
+                "q": "ACC",
+                "w": 218,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "canal-plus",
+                "name": "Canal+",
+                "src": "france/canal-plus-fr.png",
+                "q": "Canal+",
+                "w": 240,
+                "h": 60,
+                "tone": "light"
+            },
+            {
+                "id": "a-and-e",
+                "name": "A&E",
+                "src": "united-states/a-and-e-us.png",
+                "q": "A&E",
+                "w": 123,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cinemax",
+                "name": "Cinemax",
+                "src": "united-states/cinemax-us.png",
+                "w": 184,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nba-tv",
+                "name": "NBA TV",
+                "src": "united-states/nba-tv-us.png",
+                "q": "NBA",
+                "w": 146,
+                "h": 64,
+                "tone": "dark"
+            }
+        ],
+        [
+            {
+                "id": "cbs-sports",
+                "name": "CBS Sports Network",
+                "src": "united-states/cbs-sports-network-us.png",
+                "q": "CBS Sports",
+                "w": 240,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tudn",
+                "name": "TUDN",
+                "src": "united-states/tudn-us.png",
+                "w": 240,
+                "h": 56,
+                "tone": "dark"
+            },
+            {
+                "id": "ahc",
+                "name": "American Heroes Channel",
+                "src": "united-states/american-heroes-channel-us.png",
+                "q": "AHC",
+                "w": 143,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "mtv",
+                "name": "MTV",
+                "src": "united-states/mtv-us.png",
+                "w": 103,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "crave",
+                "name": "Crave",
+                "src": "canada/crave-ca.png",
+                "w": 240,
+                "h": 43,
+                "tone": "dark"
+            },
+            {
+                "id": "nbc-sports",
+                "name": "NBC Sports",
+                "src": "united-states/nbc-sports-us.png",
+                "w": 64,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "tbs",
+                "name": "TBS",
+                "src": "united-states/tbs-us.png",
+                "w": 119,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "vice",
+                "name": "Vice",
+                "src": "united-states/vice-us.png",
+                "w": 202,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "sec-network",
+                "name": "SEC Network",
+                "src": "united-states/sec-network-us.png",
+                "q": "SEC",
+                "w": 46,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "sny",
+                "name": "SNY",
+                "src": "united-states/sny-us.png",
+                "w": 168,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "outdoor",
+                "name": "Outdoor Channel",
+                "src": "united-states/outdoor-channel-us.png",
+                "q": "Outdoor",
+                "w": 130,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "nhl-network",
+                "name": "NHL Network",
+                "src": "united-states/nhl-network-us.png",
+                "q": "NHL",
+                "w": 89,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "itv",
+                "name": "ITV",
+                "src": "united-kingdom/itv-1-uk.png",
+                "w": 173,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "yes",
+                "name": "YES Network",
+                "src": "united-states/yes-network-us.png",
+                "q": "YES",
+                "w": 130,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "id",
+                "name": "Investigation Discovery",
+                "src": "united-states/investigation-discovery-us.png",
+                "q": "Investigation",
+                "w": 111,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "magnolia",
+                "name": "Magnolia Network",
+                "src": "united-states/magnolia-network-us.png",
+                "q": "Magnolia",
+                "w": 53,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "cartoon-network",
+                "name": "Cartoon Network",
+                "src": "united-states/cartoon-network-us.png",
+                "w": 107,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "rai",
+                "name": "Rai 1",
+                "src": "italy/rai-1-it.png",
+                "q": "Rai",
+                "w": 85,
+                "h": 64,
+                "tone": "dark"
+            }
+        ],
+        [
+            {
+                "id": "pop",
+                "name": "Pop",
+                "src": "united-states/pop-us.png",
+                "w": 122,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "travel-channel",
+                "name": "Travel Channel",
+                "src": "united-states/travel-channel-us.png",
+                "q": "Travel",
+                "w": 131,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "the-movie-channel",
+                "name": "The Movie Channel",
+                "src": "united-states/the-movie-channel-us.png",
+                "q": "Movie Channel",
+                "w": 173,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "discovery",
+                "name": "Discovery Channel",
+                "src": "united-states/discovery-channel-us.png",
+                "q": "Discovery",
+                "w": 240,
+                "h": 50,
+                "tone": "dark"
+            },
+            {
+                "id": "food-network",
+                "name": "Food Network",
+                "src": "united-states/food-network-us.png",
+                "q": "Food",
+                "w": 64,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "bein-sports",
+                "name": "beIN Sports",
+                "src": "united-states/bein-sports-us.png",
+                "q": "beIN",
+                "w": 240,
+                "h": 43,
+                "tone": "dark"
+            },
+            {
+                "id": "freeform",
+                "name": "Freeform",
+                "src": "united-states/freeform-us.png",
+                "w": 240,
+                "h": 43,
+                "tone": "dark"
+            },
+            {
+                "id": "hallmark",
+                "name": "Hallmark Channel",
+                "src": "united-states/hallmark-channel-us.png",
+                "q": "Hallmark",
+                "w": 162,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "lifetime",
+                "name": "Lifetime",
+                "src": "united-states/lifetime-us.png",
+                "w": 210,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "nat-geo",
+                "name": "National Geographic",
+                "src": "united-states/national-geographic-us.png",
+                "q": "Geographic",
+                "w": 217,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "syfy",
+                "name": "SYFY",
+                "src": "united-states/syfy-us.png",
+                "w": 61,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "usa-network",
+                "name": "USA Network",
+                "src": "canada/usa-network-ca.png",
+                "q": "USA Network",
+                "w": 110,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "trutv",
+                "name": "truTV",
+                "src": "united-states/tru-tv-us.png",
+                "q": "truTV",
+                "w": 165,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "dazn",
+                "name": "DAZN",
+                "src": "united-states/dazn-us.png",
+                "w": 64,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "espn",
+                "name": "ESPN",
+                "src": "united-states/espn-us.png",
+                "w": 240,
+                "h": 60,
+                "tone": "light"
+            },
+            {
+                "id": "destination-america",
+                "name": "Destination America",
+                "src": "united-states/destination-america-us.png",
+                "w": 76,
+                "h": 64,
+                "tone": "light"
+            },
+            {
+                "id": "nickelodeon",
+                "name": "Nickelodeon",
+                "src": "united-states/nickelodeon-us.png",
+                "w": 84,
+                "h": 64,
+                "tone": "dark"
+            },
+            {
+                "id": "antena-3",
+                "name": "Antena 3",
+                "src": "spain/antena-3-es.png",
+                "w": 58,
+                "h": 64,
+                "tone": "dark"
+            }
+        ]
+    ]
+}
